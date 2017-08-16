@@ -1,0 +1,43 @@
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  background-image: url("https://www.planwallpaper.com/static/images/518151-backgrounds_W3qVPu2.jpg");
+  background-size: cover;
+  padding: 1% 20%;
+  
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+}
+
+h2,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 200px;
+  max-height: 100px;
+  border-radius: 50%;
+  border: 3px solid #e1e1e6;
+}
+
+article {
+  background-color: #E0EDA1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+article a {
+  text-decoration: none;
+  text-align: center;
+}
+
+article.off{
+  background-color: grey;
+}
